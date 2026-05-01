@@ -14,7 +14,7 @@ def create_volume_snapshots():
     )
     for volume in volumes['Volumes']:
         new_snapshot = ec2_client.create_snapshot(
-            VolumeId=volume['VolumeId'] 
+            VolumeId=volume['VolumeId']
         )
         print(new_snapshot)
 
