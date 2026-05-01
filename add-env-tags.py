@@ -22,7 +22,7 @@ response = ec2_resource_singapore.create_tags(
         {
             'Key': 'environment',
             'Value': 'prod'
-        },
+        }, 
     ]
 )
 
