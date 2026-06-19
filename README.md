@@ -52,5 +52,5 @@ git checkout feature/basic-ec2
 
 Run the automation script:
 ```python
-python main.py
+python3 main.py
 ```
