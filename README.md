@@ -45,7 +45,7 @@ git clone https://github.com/FPurichaya/automate-with-python.git
 cd automate-with-python
 ```
 
-Switch to a branch:
+Switch to desired branch, for example:
 ```python
 git checkout feature/basic-ec2
 ```
